@@ -16,7 +16,7 @@ name: daily-report
 
 on:
   schedule:
-    - cron: '10 16,4 * * *'
+    - cron: '15 15,3 * * *'
       timezone: Europe/Berlin
   workflow_dispatch:
 
